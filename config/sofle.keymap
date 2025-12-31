@@ -72,7 +72,9 @@
                         &studio_unlock   &trans          &kp LEFT_ALT          &trans                 &trans    &trans  &trans           &trans     &trans           &kp KP_NUMBER_0
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&inc_dec_kp UP DOWN_ARROW>;
         };
 
         raise_layer {
